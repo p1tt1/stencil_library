@@ -1,1 +1,1 @@
-# fdm_stencil_library
+# stencil_library

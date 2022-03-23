@@ -1,0 +1,919 @@
+node_id,bench_id,impl_id,region_id,obj_cols,obj_rows,obj_levels,obj_cells,threads,runtime
+
+gauss3,e_runtime_by_cells,\Verb{const_coeff},apply,100,100,100,1000000,1,0.00128755
+gauss3,e_runtime_by_cells,\Verb{const_coeff},routine,100,100,100,1000000,1,0.00503608
+gauss3,e_runtime_by_cells,\Verb{const_coeff},apply,120,120,120,1728000,1,0.00224758
+gauss3,e_runtime_by_cells,\Verb{const_coeff},routine,120,120,120,1728000,1,0.00692053
+gauss3,e_runtime_by_cells,\Verb{const_coeff},apply,140,140,140,2744000,1,0.00374897
+gauss3,e_runtime_by_cells,\Verb{const_coeff},routine,140,140,140,2744000,1,0.0104489
+gauss3,e_runtime_by_cells,\Verb{const_coeff},apply,160,160,160,4096000,1,0.0057101
+gauss3,e_runtime_by_cells,\Verb{const_coeff},routine,160,160,160,4096000,1,0.0151229
+gauss3,e_runtime_by_cells,\Verb{const_coeff},apply,180,180,180,5832000,1,0.00848353
+gauss3,e_runtime_by_cells,\Verb{const_coeff},routine,180,180,180,5832000,1,0.0198862
+gauss3,e_runtime_by_cells,\Verb{const_coeff},apply,200,200,200,8000000,1,0.0105541
+gauss3,e_runtime_by_cells,\Verb{const_coeff},routine,200,200,200,8000000,1,0.0272244
+gauss3,e_runtime_by_cells,\Verb{const_coeff},apply,220,220,220,10648000,1,0.0138298
+gauss3,e_runtime_by_cells,\Verb{const_coeff},routine,220,220,220,10648000,1,0.0354684
+gauss3,e_runtime_by_cells,\Verb{const_coeff},apply,240,240,240,13824000,1,0.0181338
+gauss3,e_runtime_by_cells,\Verb{const_coeff},routine,240,240,240,13824000,1,0.045458
+gauss3,e_runtime_by_cells,\Verb{const_coeff},apply,260,260,260,17576000,1,0.0227067
+gauss3,e_runtime_by_cells,\Verb{const_coeff},routine,260,260,260,17576000,1,0.0570466
+gauss3,e_runtime_by_cells,\Verb{const_coeff},apply,280,280,280,21952000,1,0.0281166
+gauss3,e_runtime_by_cells,\Verb{const_coeff},routine,280,280,280,21952000,1,0.0707292
+gauss3,e_runtime_by_cells,\Verb{const_coeff},apply,300,300,300,27000000,1,0.0357212
+gauss3,e_runtime_by_cells,\Verb{const_coeff},routine,300,300,300,27000000,1,0.0876409
+gauss3,e_runtime_by_cells,\Verb{const_coeff},apply,320,320,320,32768000,1,0.0438707
+gauss3,e_runtime_by_cells,\Verb{const_coeff},routine,320,320,320,32768000,1,0.107174
+gauss3,e_runtime_by_cells,\Verb{const_coeff},apply,340,340,340,39304000,1,0.0513803
+gauss3,e_runtime_by_cells,\Verb{const_coeff},routine,340,340,340,39304000,1,0.126757
+gauss3,e_runtime_by_cells,\Verb{const_coeff},apply,360,360,360,46656000,1,0.0600501
+gauss3,e_runtime_by_cells,\Verb{const_coeff},routine,360,360,360,46656000,1,0.148799
+gauss3,e_runtime_by_cells,\Verb{const_coeff},apply,380,380,380,54872000,1,0.0703962
+gauss3,e_runtime_by_cells,\Verb{const_coeff},routine,380,380,380,54872000,1,0.174496
+gauss3,e_runtime_by_cells,\Verb{const_coeff},apply,400,400,400,64000000,1,0.0825187
+gauss3,e_runtime_by_cells,\Verb{const_coeff},routine,400,400,400,64000000,1,0.204034
+gauss3,e_runtime_by_cells,\Verb{const_coeff},apply,420,420,420,74088000,1,0.0959563
+gauss3,e_runtime_by_cells,\Verb{const_coeff},routine,420,420,420,74088000,1,0.235751
+gauss3,e_runtime_by_cells,\Verb{const_coeff},apply,440,440,440,85184000,1,0.109967
+gauss3,e_runtime_by_cells,\Verb{const_coeff},routine,440,440,440,85184000,1,0.271696
+gauss3,e_runtime_by_cells,\Verb{const_coeff},apply,460,460,460,97336000,1,0.125656
+gauss3,e_runtime_by_cells,\Verb{const_coeff},routine,460,460,460,97336000,1,0.309373
+gauss3,e_runtime_by_cells,\Verb{const_coeff},apply,480,480,480,110592000,1,0.143024
+gauss3,e_runtime_by_cells,\Verb{const_coeff},routine,480,480,480,110592000,1,0.351009
+gauss3,e_runtime_by_cells,\Verb{const_coeff},apply,500,500,500,125000000,1,0.161376
+gauss3,e_runtime_by_cells,\Verb{const_coeff},routine,500,500,500,125000000,1,0.397099
+gauss3,e_runtime_by_cells,\Verb{const_coeff},apply,520,520,520,140608000,1,0.181189
+gauss3,e_runtime_by_cells,\Verb{const_coeff},routine,520,520,520,140608000,1,0.445475
+gauss3,e_runtime_by_cells,\Verb{const_coeff},apply,540,540,540,157464000,1,0.202327
+gauss3,e_runtime_by_cells,\Verb{const_coeff},routine,540,540,540,157464000,1,0.497843
+gauss3,e_runtime_by_cells,\Verb{const_coeff},apply,560,560,560,175616000,1,0.226443
+gauss3,e_runtime_by_cells,\Verb{const_coeff},routine,560,560,560,175616000,1,0.556285
+gauss3,e_runtime_by_cells,\Verb{const_coeff},apply,580,580,580,195112000,1,0.252608
+gauss3,e_runtime_by_cells,\Verb{const_coeff},routine,580,580,580,195112000,1,0.618129
+gauss3,e_runtime_by_cells,\Verb{const_coeff},apply,600,600,600,216000000,1,0.30602
+gauss3,e_runtime_by_cells,\Verb{const_coeff},routine,600,600,600,216000000,1,0.711944
+gauss3,e_runtime_by_cells,\Verb{const_coeff},apply,620,620,620,238328000,1,0.313831
+gauss3,e_runtime_by_cells,\Verb{const_coeff},routine,620,620,620,238328000,1,0.760666
+gauss3,e_runtime_by_cells,\Verb{const_coeff},apply,640,640,640,262144000,1,0.365566
+gauss3,e_runtime_by_cells,\Verb{const_coeff},routine,640,640,640,262144000,1,0.855986
+gauss3,e_runtime_by_cells,\Verb{const_coeff},apply,660,660,660,287496000,1,0.381402
+gauss3,e_runtime_by_cells,\Verb{const_coeff},routine,660,660,660,287496000,1,0.920078
+gauss3,e_runtime_by_cells,\Verb{const_coeff},apply,680,680,680,314432000,1,0.41703
+gauss3,e_runtime_by_cells,\Verb{const_coeff},routine,680,680,680,314432000,1,1.00637
+gauss3,e_runtime_by_cells,\Verb{const_coeff},apply,700,700,700,343000000,1,0.464898
+gauss3,e_runtime_by_cells,\Verb{const_coeff},routine,700,700,700,343000000,1,1.1071
+gauss3,e_runtime_by_cells,\Verb{const_coeff},apply,720,720,720,373248000,1,0.496251
+gauss3,e_runtime_by_cells,\Verb{const_coeff},routine,720,720,720,373248000,1,1.19524
+gauss3,e_runtime_by_cells,\Verb{const_coeff},apply,740,740,740,405224000,1,0.557848
+gauss3,e_runtime_by_cells,\Verb{const_coeff},routine,740,740,740,405224000,1,1.31678
+gauss3,e_runtime_by_cells,\Verb{const_coeff},apply,760,760,760,438976000,1,0.593357
+gauss3,e_runtime_by_cells,\Verb{const_coeff},routine,760,760,760,438976000,1,1.41521
+gauss3,e_runtime_by_cells,\Verb{const_coeff},apply,780,780,780,474552000,1,0.648445
+gauss3,e_runtime_by_cells,\Verb{const_coeff},routine,780,780,780,474552000,1,1.55213
+gauss3,e_runtime_by_cells,\Verb{const_coeff},apply,800,800,800,512000000,1,0.753747
+gauss3,e_runtime_by_cells,\Verb{const_coeff},routine,800,800,800,512000000,1,1.71014
+gauss3,e_runtime_by_cells,\Verb{const_coeff},apply,820,820,820,551368000,1,0.744611
+gauss3,e_runtime_by_cells,\Verb{const_coeff},routine,820,820,820,551368000,1,1.77552
+gauss3,e_runtime_by_cells,\Verb{const_coeff},apply,840,840,840,592704000,1,0.819886
+gauss3,e_runtime_by_cells,\Verb{const_coeff},routine,840,840,840,592704000,1,1.92797
+gauss3,e_runtime_by_cells,\Verb{const_coeff},apply,860,860,860,636056000,1,0.863336
+gauss3,e_runtime_by_cells,\Verb{const_coeff},routine,860,860,860,636056000,1,2.05376
+gauss3,e_runtime_by_cells,\Verb{const_coeff},apply,880,880,880,681472000,1,0.929097
+gauss3,e_runtime_by_cells,\Verb{const_coeff},routine,880,880,880,681472000,1,2.20013
+gauss3,e_runtime_by_cells,\Verb{const_coeff},apply,900,900,900,729000000,1,1.01964
+gauss3,e_runtime_by_cells,\Verb{const_coeff},routine,900,900,900,729000000,1,2.38598
+gauss3,e_runtime_by_cells,\Verb{const_coeff},apply,920,920,920,778688000,1,1.09188
+gauss3,e_runtime_by_cells,\Verb{const_coeff},routine,920,920,920,778688000,1,2.54602
+gauss3,e_runtime_by_cells,\Verb{const_coeff},apply,940,940,940,830584000,1,1.23094
+gauss3,e_runtime_by_cells,\Verb{const_coeff},routine,940,940,940,830584000,1,2.78283
+gauss3,e_runtime_by_cells,\Verb{const_coeff},apply,960,960,960,884736000,1,1.21893
+gauss3,e_runtime_by_cells,\Verb{const_coeff},routine,960,960,960,884736000,1,2.86831
+gauss3,e_runtime_by_cells,\Verb{const_coeff},apply,980,980,980,941192000,1,1.2729
+gauss3,e_runtime_by_cells,\Verb{const_coeff},routine,980,980,980,941192000,1,3.03274
+gauss3,e_runtime_by_cells,\Verb{const_coeff},apply,1000,1000,1000,1000000000,1,1.3675
+gauss3,e_runtime_by_cells,\Verb{const_coeff},routine,1000,1000,1000,1000000000,1,3.22962
+gauss3,e_runtime_by_cells,\Verb{const_coeff},apply,1020,1020,1020,1061208000,1,1.51063
+gauss3,e_runtime_by_cells,\Verb{const_coeff},routine,1020,1020,1020,1061208000,1,3.4968
+gauss3,e_runtime_by_cells,\Verb{const_coeff},apply,1040,1040,1040,1124864000,1,1.61711
+gauss3,e_runtime_by_cells,\Verb{const_coeff},routine,1040,1040,1040,1124864000,1,3.7172
+gauss3,e_runtime_by_cells,\Verb{const_coeff},apply,1060,1060,1060,1191016000,1,1.63714
+gauss3,e_runtime_by_cells,\Verb{const_coeff},routine,1060,1060,1060,1191016000,1,3.85662
+gauss3,e_runtime_by_cells,\Verb{const_coeff},apply,1080,1080,1080,1259712000,1,1.74342
+gauss3,e_runtime_by_cells,\Verb{const_coeff},routine,1080,1080,1080,1259712000,1,4.09302
+gauss3,e_runtime_by_cells,\Verb{const_coeff},apply,1100,1100,1100,1331000000,1,1.82347
+gauss3,e_runtime_by_cells,\Verb{const_coeff},routine,1100,1100,1100,1331000000,1,4.31017
+gauss3,e_runtime_by_cells,\Verb{const_coeff},apply,1120,1120,1120,1404928000,1,1.93183
+gauss3,e_runtime_by_cells,\Verb{const_coeff},routine,1120,1120,1120,1404928000,1,4.55107
+gauss3,e_runtime_by_cells,\Verb{const_coeff},apply,1140,1140,1140,1481544000,1,2.01005
+gauss3,e_runtime_by_cells,\Verb{const_coeff},routine,1140,1140,1140,1481544000,1,4.77049
+gauss3,e_runtime_by_cells,\Verb{const_coeff},apply,1160,1160,1160,1560896000,1,2.12389
+gauss3,e_runtime_by_cells,\Verb{const_coeff},routine,1160,1160,1160,1560896000,1,5.03031
+gauss3,e_runtime_by_cells,\Verb{const_coeff},apply,1180,1180,1180,1643032000,1,2.27131
+gauss3,e_runtime_by_cells,\Verb{const_coeff},routine,1180,1180,1180,1643032000,1,5.34145
+gauss3,e_runtime_by_cells,\Verb{const_coeff},apply,1200,1200,1200,1728000000,1,2.34255
+gauss3,e_runtime_by_cells,\Verb{const_coeff},routine,1200,1200,1200,1728000000,1,5.56471
+gauss3,e_runtime_by_cells,\Verb{const_coeff},apply,1220,1220,1220,1815848000,1,2.51225
+gauss3,e_runtime_by_cells,\Verb{const_coeff},routine,1220,1220,1220,1815848000,1,5.89716
+gauss3,e_runtime_by_cells,\Verb{const_coeff},apply,1240,1240,1240,1906624000,1,2.63233
+gauss3,e_runtime_by_cells,\Verb{const_coeff},routine,1240,1240,1240,1906624000,1,6.19553
+gauss3,e_runtime_by_cells,\Verb{const_coeff},apply,1260,1260,1260,2000376000,1,2.72743
+gauss3,e_runtime_by_cells,\Verb{const_coeff},routine,1260,1260,1260,2000376000,1,6.45983
+gauss3,e_runtime_by_cells,\Verb{const_coeff},apply,1280,1280,1280,2097152000,1,3.38683
+gauss3,e_runtime_by_cells,\Verb{const_coeff},routine,1280,1280,1280,2097152000,1,7.30109
+gauss3,e_runtime_by_cells,\Verb{const_coeff},apply,1300,1300,1300,2197000000,1,3.02
+gauss3,e_runtime_by_cells,\Verb{const_coeff},routine,1300,1300,1300,2197000000,1,7.11378
+gauss3,e_runtime_by_cells,\Verb{const_coeff},apply,1320,1320,1320,2299968000,1,3.17255
+gauss3,e_runtime_by_cells,\Verb{const_coeff},routine,1320,1320,1320,2299968000,1,7.4546
+gauss3,e_runtime_by_cells,\Verb{const_coeff},apply,1340,1340,1340,2406104000,1,3.51944
+gauss3,e_runtime_by_cells,\Verb{const_coeff},routine,1340,1340,1340,2406104000,1,7.99765
+gauss3,e_runtime_by_cells,\Verb{const_coeff},apply,1360,1360,1360,2515456000,1,3.43524
+gauss3,e_runtime_by_cells,\Verb{const_coeff},routine,1360,1360,1360,2515456000,1,8.12895
+gauss3,e_runtime_by_cells,\Verb{const_coeff},apply,1380,1380,1380,2628072000,1,3.92124
+gauss3,e_runtime_by_cells,\Verb{const_coeff},routine,1380,1380,1380,2628072000,1,8.81586
+gauss3,e_runtime_by_cells,\Verb{const_coeff},apply,1400,1400,1400,2744000000,1,3.77558
+gauss3,e_runtime_by_cells,\Verb{const_coeff},routine,1400,1400,1400,2744000000,1,8.90135
+gauss3,e_runtime_by_cells,\Verb{const_coeff},apply,1420,1420,1420,2863288000,1,3.91006
+gauss3,e_runtime_by_cells,\Verb{const_coeff},routine,1420,1420,1420,2863288000,1,9.24876
+gauss3,e_runtime_by_cells,\Verb{const_coeff},apply,1440,1440,1440,2985984000,1,4.38069
+gauss3,e_runtime_by_cells,\Verb{const_coeff},routine,1440,1440,1440,2985984000,1,9.93773
+gauss3,e_runtime_by_cells,\Verb{const_coeff},apply,1460,1460,1460,3112136000,1,4.55067
+gauss3,e_runtime_by_cells,\Verb{const_coeff},routine,1460,1460,1460,3112136000,1,10.3635
+gauss3,e_runtime_by_cells,\Verb{const_coeff},apply,1480,1480,1480,3241792000,1,4.54997
+gauss3,e_runtime_by_cells,\Verb{const_coeff},routine,1480,1480,1480,3241792000,1,10.6178
+gauss3,e_runtime_by_cells,\Verb{const_coeff},apply,1500,1500,1500,3375000000,1,4.67076
+gauss3,e_runtime_by_cells,\Verb{const_coeff},routine,1500,1500,1500,3375000000,1,11.0783
+gauss3,e_runtime_by_cells,\Verb{const_coeff},apply,1520,1520,1520,3511808000,1,5.20056
+gauss3,e_runtime_by_cells,\Verb{const_coeff},routine,1520,1520,1520,3511808000,1,11.7451
+gauss3,e_runtime_by_cells,\Verb{const_coeff},apply,1540,1540,1540,3652264000,1,5.27065
+gauss3,e_runtime_by_cells,\Verb{const_coeff},routine,1540,1540,1540,3652264000,1,12.0727
+gauss3,e_runtime_by_cells,\Verb{const_coeff},apply,1560,1560,1560,3796416000,1,5.71042
+gauss3,e_runtime_by_cells,\Verb{const_coeff},routine,1560,1560,1560,3796416000,1,12.7715
+gauss3,e_runtime_by_cells,\Verb{const_coeff},apply,1580,1580,1580,3944312000,1,5.65601
+gauss3,e_runtime_by_cells,\Verb{const_coeff},routine,1580,1580,1580,3944312000,1,13.0117
+gauss3,e_runtime_by_cells,\Verb{const_coeff},apply,1600,1600,1600,4096000000,1,5.94849
+gauss3,e_runtime_by_cells,\Verb{const_coeff},routine,1600,1600,1600,4096000000,1,13.5847
+
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},apply,100,100,100,1000000,1,0.00274936
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},routine,100,100,100,1000000,1,0.00786803
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},apply,120,120,120,1728000,1,0.00483464
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},routine,120,120,120,1728000,1,0.0117413
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},apply,140,140,140,2744000,1,0.00764314
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},routine,140,140,140,2744000,1,0.0170954
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},apply,160,160,160,4096000,1,0.0117
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},routine,160,160,160,4096000,1,0.0254932
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},apply,180,180,180,5832000,1,0.0164969
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},routine,180,180,180,5832000,1,0.0350949
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},apply,200,200,200,8000000,1,0.021616
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},routine,200,200,200,8000000,1,0.0464149
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},apply,220,220,220,10648000,1,0.0285622
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},routine,220,220,220,10648000,1,0.0606318
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},apply,240,240,240,13824000,1,0.0375884
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},routine,240,240,240,13824000,1,0.0793153
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},apply,260,260,260,17576000,1,0.0475439
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},routine,260,260,260,17576000,1,0.0994521
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},apply,280,280,280,21952000,1,0.0593024
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},routine,280,280,280,21952000,1,0.123855
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},apply,300,300,300,27000000,1,0.0738495
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},routine,300,300,300,27000000,1,0.151804
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},apply,320,320,320,32768000,1,0.090607
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},routine,320,320,320,32768000,1,0.185406
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},apply,340,340,340,39304000,1,0.105355
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},routine,340,340,340,39304000,1,0.218929
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},apply,360,360,360,46656000,1,0.124857
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},routine,360,360,360,46656000,1,0.258547
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},apply,380,380,380,54872000,1,0.148959
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},routine,380,380,380,54872000,1,0.306377
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},apply,400,400,400,64000000,1,0.174339
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},routine,400,400,400,64000000,1,0.356796
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},apply,420,420,420,74088000,1,0.206187
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},routine,420,420,420,74088000,1,0.417901
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},apply,440,440,440,85184000,1,0.231177
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},routine,440,440,440,85184000,1,0.474435
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},apply,460,460,460,97336000,1,0.272136
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},routine,460,460,460,97336000,1,0.549788
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},apply,480,480,480,110592000,1,0.34319
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},routine,480,480,480,110592000,1,0.65621
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},apply,500,500,500,125000000,1,0.341327
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},routine,500,500,500,125000000,1,0.695314
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},apply,520,520,520,140608000,1,0.381625
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},routine,520,520,520,140608000,1,0.778649
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},apply,540,540,540,157464000,1,0.432287
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},routine,540,540,540,157464000,1,0.878144
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},apply,560,560,560,175616000,1,0.490994
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},routine,560,560,560,175616000,1,0.988672
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},apply,580,580,580,195112000,1,0.548896
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},routine,580,580,580,195112000,1,1.10124
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},apply,600,600,600,216000000,1,0.635232
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},routine,600,600,600,216000000,1,1.24505
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},apply,620,620,620,238328000,1,0.657156
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},routine,620,620,620,238328000,1,1.33058
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},apply,640,640,640,262144000,1,0.759727
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},routine,640,640,640,262144000,1,1.50013
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},apply,660,660,660,287496000,1,0.789815
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},routine,660,660,660,287496000,1,1.60046
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},apply,680,680,680,314432000,1,0.875314
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},routine,680,680,680,314432000,1,1.76169
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},apply,700,700,700,343000000,1,0.963378
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},routine,700,700,700,343000000,1,1.93015
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},apply,720,720,720,373248000,1,1.07031
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},routine,720,720,720,373248000,1,2.12166
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},apply,740,740,740,405224000,1,1.13373
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},routine,740,740,740,405224000,1,2.27683
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},apply,760,760,760,438976000,1,1.24396
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},routine,760,760,760,438976000,1,2.48364
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},apply,780,780,780,474552000,1,1.31935
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},routine,780,780,780,474552000,1,2.66716
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},apply,800,800,800,512000000,1,1.50266
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},routine,800,800,800,512000000,1,2.94301
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},apply,820,820,820,551368000,1,1.51424
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},routine,820,820,820,551368000,1,3.06695
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},apply,840,840,840,592704000,1,1.73521
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},routine,840,840,840,592704000,1,3.40253
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},apply,860,860,860,636056000,1,1.818
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},routine,860,860,860,636056000,1,3.60846
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},apply,880,880,880,681472000,1,1.98955
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},routine,880,880,880,681472000,1,3.90568
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},apply,900,900,900,729000000,1,2.10556
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},routine,900,900,900,729000000,1,4.16738
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},apply,920,920,920,778688000,1,2.29788
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},routine,920,920,920,778688000,1,4.4863
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},apply,940,940,940,830584000,1,2.30949
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},routine,940,940,940,830584000,1,4.64569
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},apply,960,960,960,884736000,1,2.56803
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},routine,960,960,960,884736000,1,5.06257
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},apply,980,980,980,941192000,1,2.69836
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},routine,980,980,980,941192000,1,5.35671
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},apply,1000,1000,1000,1000000000,1,3.02457
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},routine,1000,1000,1000,1000000000,1,5.84069
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},apply,1020,1020,1020,1061208000,1,3.36594
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},routine,1020,1020,1020,1061208000,1,6.3636
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},apply,1040,1040,1040,1124864000,1,3.20921
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},routine,1040,1040,1040,1124864000,1,6.37345
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},apply,1060,1060,1060,1191016000,1,3.31091
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},routine,1060,1060,1060,1191016000,1,6.65668
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},apply,1080,1080,1080,1259712000,1,3.6647
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},routine,1080,1080,1080,1259712000,1,7.21203
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},apply,1100,1100,1100,1331000000,1,3.79169
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},routine,1100,1100,1100,1331000000,1,7.5455
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},apply,1120,1120,1120,1404928000,1,4.09829
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},routine,1120,1120,1120,1404928000,1,8.04994
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},apply,1140,1140,1140,1481544000,1,4.25753
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},routine,1140,1140,1140,1481544000,1,8.41694
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},apply,1160,1160,1160,1560896000,1,4.89662
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},routine,1160,1160,1160,1560896000,1,9.29556
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},apply,1180,1180,1180,1643032000,1,4.77872
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},routine,1180,1180,1180,1643032000,1,9.41133
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},apply,1200,1200,1200,1728000000,1,5.12144
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},routine,1200,1200,1200,1728000000,1,9.97064
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},apply,1220,1220,1220,1815848000,1,5.15918
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},routine,1220,1220,1220,1815848000,1,10.258
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},apply,1240,1240,1240,1906624000,1,5.33903
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},routine,1240,1240,1240,1906624000,1,10.7048
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},apply,1260,1260,1260,2000376000,1,5.56657
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},routine,1260,1260,1260,2000376000,1,11.1977
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},apply,1280,1280,1280,2097152000,1,7.71005
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},routine,1280,1280,1280,2097152000,1,13.5977
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},apply,1300,1300,1300,2197000000,1,6.17618
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},routine,1300,1300,1300,2197000000,1,12.3402
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},apply,1320,1320,1320,2299968000,1,6.88509
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},routine,1320,1320,1320,2299968000,1,13.3364
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},apply,1340,1340,1340,2406104000,1,7.04842
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},routine,1340,1340,1340,2406104000,1,13.7925
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},apply,1360,1360,1360,2515456000,1,7.40722
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},routine,1360,1360,1360,2515456000,1,14.4625
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},apply,1380,1380,1380,2628072000,1,7.48903
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},routine,1380,1380,1380,2628072000,1,14.8578
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},apply,1400,1400,1400,2744000000,1,8.30935
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},routine,1400,1400,1400,2744000000,1,16.0532
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},apply,1420,1420,1420,2863288000,1,8.11166
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},routine,1420,1420,1420,2863288000,1,16.1447
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},apply,1440,1440,1440,2985984000,1,9.06357
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},routine,1440,1440,1440,2985984000,1,17.4479
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},apply,1460,1460,1460,3112136000,1,9.07198
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},routine,1460,1460,1460,3112136000,1,17.8572
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},apply,1480,1480,1480,3241792000,1,9.40157
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},routine,1480,1480,1480,3241792000,1,18.5463
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},apply,1500,1500,1500,3375000000,1,10.1559
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},routine,1500,1500,1500,3375000000,1,19.7171
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},apply,1520,1520,1520,3511808000,1,10.4588
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},routine,1520,1520,1520,3511808000,1,20.3071
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},apply,1540,1540,1540,3652264000,1,11.9992
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},routine,1540,1540,1540,3652264000,1,22.2445
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},apply,1560,1560,1560,3796416000,1,11.5031
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},routine,1560,1560,1560,3796416000,1,22.1506
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},apply,1580,1580,1580,3944312000,1,11.8778
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},routine,1580,1580,1580,3944312000,1,22.9625
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},apply,1600,1600,1600,4096000000,1,12.2866
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},routine,1600,1600,1600,4096000000,1,23.7778
+
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },apply,100,100,100,1000000,1,0.00212903
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },routine,100,100,100,1000000,1,0.0177928
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },apply,120,120,120,1728000,1,0.00337915
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },routine,120,120,120,1728000,1,0.0278237
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },apply,140,140,140,2744000,1,0.00531705
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },routine,140,140,140,2744000,1,0.0423988
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },apply,160,160,160,4096000,1,0.00821267
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },routine,160,160,160,4096000,1,0.0614386
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },apply,180,180,180,5832000,1,0.0112696
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },routine,180,180,180,5832000,1,0.0857945
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },apply,200,200,200,8000000,1,0.0153564
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },routine,200,200,200,8000000,1,0.116561
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },apply,220,220,220,10648000,1,0.0203383
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },routine,220,220,220,10648000,1,0.153417
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },apply,240,240,240,13824000,1,0.0267624
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },routine,240,240,240,13824000,1,0.198851
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },apply,260,260,260,17576000,1,0.034832
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },routine,260,260,260,17576000,1,0.252029
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },apply,280,280,280,21952000,1,0.0435114
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },routine,280,280,280,21952000,1,0.314202
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },apply,300,300,300,27000000,1,0.0514852
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },routine,300,300,300,27000000,1,0.384216
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },apply,320,320,320,32768000,1,0.0675849
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },routine,320,320,320,32768000,1,0.471307
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },apply,340,340,340,39304000,1,0.0769519
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },routine,340,340,340,39304000,1,0.559113
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },apply,360,360,360,46656000,1,0.0897317
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },routine,360,360,360,46656000,1,0.660591
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },apply,380,380,380,54872000,1,0.107861
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },routine,380,380,380,54872000,1,0.778087
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },apply,400,400,400,64000000,1,0.124339
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },routine,400,400,400,64000000,1,0.906058
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },apply,420,420,420,74088000,1,0.145589
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },routine,420,420,420,74088000,1,1.05781
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },apply,440,440,440,85184000,1,0.184729
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },routine,440,440,440,85184000,1,1.22415
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },apply,460,460,460,97336000,1,0.212595
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },routine,460,460,460,97336000,1,1.40058
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },apply,480,480,480,110592000,1,0.312938
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },routine,480,480,480,110592000,1,1.66339
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },apply,500,500,500,125000000,1,0.297228
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },routine,500,500,500,125000000,1,1.81719
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },apply,520,520,520,140608000,1,0.367188
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },routine,520,520,520,140608000,1,2.08663
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },apply,540,540,540,157464000,1,0.428523
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },routine,540,540,540,157464000,1,2.35339
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },apply,560,560,560,175616000,1,0.463588
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },routine,560,560,560,175616000,1,2.61164
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },apply,580,580,580,195112000,1,0.560975
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },routine,580,580,580,195112000,1,2.94619
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },apply,600,600,600,216000000,1,0.586912
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },routine,600,600,600,216000000,1,3.22418
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },apply,620,620,620,238328000,1,0.640769
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },routine,620,620,620,238328000,1,3.56037
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },apply,640,640,640,262144000,1,0.752015
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },routine,640,640,640,262144000,1,4.00532
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },apply,660,660,660,287496000,1,0.780985
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },routine,660,660,660,287496000,1,4.34944
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },apply,680,680,680,314432000,1,0.864952
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },routine,680,680,680,314432000,1,4.78174
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },apply,700,700,700,343000000,1,0.996496
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },routine,700,700,700,343000000,1,5.24897
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },apply,720,720,720,373248000,1,1.05937
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },routine,720,720,720,373248000,1,5.69442
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },apply,740,740,740,405224000,1,1.14864
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },routine,740,740,740,405224000,1,6.18608
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },apply,760,760,760,438976000,1,1.2087
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },routine,760,760,760,438976000,1,6.65872
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },apply,780,780,780,474552000,1,1.30177
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },routine,780,780,780,474552000,1,7.21051
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },apply,800,800,800,512000000,1,1.43279
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },routine,800,800,800,512000000,1,7.84904
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },apply,820,820,820,551368000,1,1.53726
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },routine,820,820,820,551368000,1,8.41444
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },apply,840,840,840,592704000,1,1.66596
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },routine,840,840,840,592704000,1,9.041
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },apply,860,860,860,636056000,1,1.6998
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },routine,860,860,860,636056000,1,9.63002
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },apply,880,880,880,681472000,1,1.8913
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },routine,880,880,880,681472000,1,10.3823
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },apply,900,900,900,729000000,1,2.0104
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },routine,900,900,900,729000000,1,11.1084
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },apply,920,920,920,778688000,1,2.23672
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },routine,920,920,920,778688000,1,11.8941
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },apply,940,940,940,830584000,1,2.34915
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },routine,940,940,940,830584000,1,12.6545
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },apply,960,960,960,884736000,1,2.71393
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },routine,960,960,960,884736000,1,13.756
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },apply,980,980,980,941192000,1,2.60593
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },routine,980,980,980,941192000,1,14.2881
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },apply,1000,1000,1000,1000000000,1,2.94933
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },routine,1000,1000,1000,1000000000,1,15.3655
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },apply,1020,1020,1020,1061208000,1,3.89157
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },routine,1020,1020,1020,1061208000,1,17.0695
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },apply,1040,1040,1040,1124864000,1,3.2557
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },routine,1040,1040,1040,1124864000,1,17.2405
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },apply,1060,1060,1060,1191016000,1,3.42167
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },routine,1060,1060,1060,1191016000,1,18.254
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },apply,1080,1080,1080,1259712000,1,3.58628
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },routine,1080,1080,1080,1259712000,1,19.3158
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },apply,1100,1100,1100,1331000000,1,3.74564
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },routine,1100,1100,1100,1331000000,1,20.3763
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },apply,1120,1120,1120,1404928000,1,4.26227
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },routine,1120,1120,1120,1404928000,1,21.827
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },apply,1140,1140,1140,1481544000,1,4.01905
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },routine,1140,1140,1140,1481544000,1,22.4555
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },apply,1160,1160,1160,1560896000,1,4.34538
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },routine,1160,1160,1160,1560896000,1,23.8305
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },apply,1180,1180,1180,1643032000,1,4.67358
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },routine,1180,1180,1180,1643032000,1,25.1731
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },apply,1200,1200,1200,1728000000,1,4.90282
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },routine,1200,1200,1200,1728000000,1,26.4567
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },apply,1220,1220,1220,1815848000,1,5.20108
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },routine,1220,1220,1220,1815848000,1,27.9849
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },apply,1240,1240,1240,1906624000,1,5.39282
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },routine,1240,1240,1240,1906624000,1,29.1659
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },apply,1260,1260,1260,2000376000,1,5.32863
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },routine,1260,1260,1260,2000376000,1,30.1541
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },apply,1280,1280,1280,2097152000,1,6.45764
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },routine,1280,1280,1280,2097152000,1,32.6999
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },apply,1300,1300,1300,2197000000,1,6.23734
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },routine,1300,1300,1300,2197000000,1,33.5448
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },apply,1320,1320,1320,2299968000,1,6.35428
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },routine,1320,1320,1320,2299968000,1,35.3487
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },apply,1340,1340,1340,2406104000,1,7.06994
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },routine,1340,1340,1340,2406104000,1,38.452
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },apply,1360,1360,1360,2515456000,1,7.60574
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },routine,1360,1360,1360,2515456000,1,42.2888
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },apply,1380,1380,1380,2628072000,1,8.06913
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },routine,1380,1380,1380,2628072000,1,46.4139
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },apply,1400,1400,1400,2744000000,1,8.95129
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },routine,1400,1400,1400,2744000000,1,50.9791
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },apply,1420,1420,1420,2863288000,1,10.5036
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },routine,1420,1420,1420,2863288000,1,56.0405
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },apply,1440,1440,1440,2985984000,1,11.8679
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },routine,1440,1440,1440,2985984000,1,61.0756
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },apply,1460,1460,1460,3112136000,1,12.4245
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },routine,1460,1460,1460,3112136000,1,65.4779
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },apply,1480,1480,1480,3241792000,1,13.7849
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },routine,1480,1480,1480,3241792000,1,70.7605
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },apply,1500,1500,1500,3375000000,1,14.9232
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },routine,1500,1500,1500,3375000000,1,76.4929
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },apply,1520,1520,1520,3511808000,1,15.6195
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },routine,1520,1520,1520,3511808000,1,80.6476
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },apply,1540,1540,1540,3652264000,1,17.7773
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },routine,1540,1540,1540,3652264000,1,87.5241
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },apply,1560,1560,1560,3796416000,1,17.7833
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },routine,1560,1560,1560,3796416000,1,94.3418
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },apply,1580,1580,1580,3944312000,1,19.1635
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },routine,1580,1580,1580,3944312000,1,100.853
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },apply,1600,1600,1600,4096000000,1,21.1988
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },routine,1600,1600,1600,4096000000,1,106.985
+
+gauss3,e_runtime_by_cells,\Verb{const_coeff},apply,100,100,100,1000000,128,0.00043177
+gauss3,e_runtime_by_cells,\Verb{const_coeff},routine,100,100,100,1000000,128,0.0117639
+gauss3,e_runtime_by_cells,\Verb{const_coeff},apply,120,120,120,1728000,128,0.000731427
+gauss3,e_runtime_by_cells,\Verb{const_coeff},routine,120,120,120,1728000,128,0.00994434
+gauss3,e_runtime_by_cells,\Verb{const_coeff},apply,140,140,140,2744000,128,0.00132678
+gauss3,e_runtime_by_cells,\Verb{const_coeff},routine,140,140,140,2744000,128,0.011514
+gauss3,e_runtime_by_cells,\Verb{const_coeff},apply,160,160,160,4096000,128,0.00216664
+gauss3,e_runtime_by_cells,\Verb{const_coeff},routine,160,160,160,4096000,128,0.0134658
+gauss3,e_runtime_by_cells,\Verb{const_coeff},apply,180,180,180,5832000,128,0.00564043
+gauss3,e_runtime_by_cells,\Verb{const_coeff},routine,180,180,180,5832000,128,0.018202
+gauss3,e_runtime_by_cells,\Verb{const_coeff},apply,200,200,200,8000000,128,0.00364656
+gauss3,e_runtime_by_cells,\Verb{const_coeff},routine,200,200,200,8000000,128,0.0184483
+gauss3,e_runtime_by_cells,\Verb{const_coeff},apply,220,220,220,10648000,128,0.00468249
+gauss3,e_runtime_by_cells,\Verb{const_coeff},routine,220,220,220,10648000,128,0.0214711
+gauss3,e_runtime_by_cells,\Verb{const_coeff},apply,240,240,240,13824000,128,0.00527965
+gauss3,e_runtime_by_cells,\Verb{const_coeff},routine,240,240,240,13824000,128,0.0196304
+gauss3,e_runtime_by_cells,\Verb{const_coeff},apply,260,260,260,17576000,128,0.00269038
+gauss3,e_runtime_by_cells,\Verb{const_coeff},routine,260,260,260,17576000,128,0.017913
+gauss3,e_runtime_by_cells,\Verb{const_coeff},apply,280,280,280,21952000,128,0.00551345
+gauss3,e_runtime_by_cells,\Verb{const_coeff},routine,280,280,280,21952000,128,0.0201726
+gauss3,e_runtime_by_cells,\Verb{const_coeff},apply,300,300,300,27000000,128,0.00655306
+gauss3,e_runtime_by_cells,\Verb{const_coeff},routine,300,300,300,27000000,128,0.0218131
+gauss3,e_runtime_by_cells,\Verb{const_coeff},apply,320,320,320,32768000,128,0.0109534
+gauss3,e_runtime_by_cells,\Verb{const_coeff},routine,320,320,320,32768000,128,0.0272384
+gauss3,e_runtime_by_cells,\Verb{const_coeff},apply,340,340,340,39304000,128,0.010675
+gauss3,e_runtime_by_cells,\Verb{const_coeff},routine,340,340,340,39304000,128,0.0300966
+gauss3,e_runtime_by_cells,\Verb{const_coeff},apply,360,360,360,46656000,128,0.00987167
+gauss3,e_runtime_by_cells,\Verb{const_coeff},routine,360,360,360,46656000,128,0.0314656
+gauss3,e_runtime_by_cells,\Verb{const_coeff},apply,380,380,380,54872000,128,0.0104064
+gauss3,e_runtime_by_cells,\Verb{const_coeff},routine,380,380,380,54872000,128,0.0333571
+gauss3,e_runtime_by_cells,\Verb{const_coeff},apply,400,400,400,64000000,128,0.013926
+gauss3,e_runtime_by_cells,\Verb{const_coeff},routine,400,400,400,64000000,128,0.0378874
+gauss3,e_runtime_by_cells,\Verb{const_coeff},apply,420,420,420,74088000,128,0.0155293
+gauss3,e_runtime_by_cells,\Verb{const_coeff},routine,420,420,420,74088000,128,0.0431759
+gauss3,e_runtime_by_cells,\Verb{const_coeff},apply,440,440,440,85184000,128,0.0296036
+gauss3,e_runtime_by_cells,\Verb{const_coeff},routine,440,440,440,85184000,128,0.0665764
+gauss3,e_runtime_by_cells,\Verb{const_coeff},apply,460,460,460,97336000,128,0.023854
+gauss3,e_runtime_by_cells,\Verb{const_coeff},routine,460,460,460,97336000,128,0.0587615
+gauss3,e_runtime_by_cells,\Verb{const_coeff},apply,480,480,480,110592000,128,0.0238513
+gauss3,e_runtime_by_cells,\Verb{const_coeff},routine,480,480,480,110592000,128,0.0601588
+gauss3,e_runtime_by_cells,\Verb{const_coeff},apply,500,500,500,125000000,128,0.0241655
+gauss3,e_runtime_by_cells,\Verb{const_coeff},routine,500,500,500,125000000,128,0.0659677
+gauss3,e_runtime_by_cells,\Verb{const_coeff},apply,520,520,520,140608000,128,0.0270176
+gauss3,e_runtime_by_cells,\Verb{const_coeff},routine,520,520,520,140608000,128,0.0701813
+gauss3,e_runtime_by_cells,\Verb{const_coeff},apply,540,540,540,157464000,128,0.0314065
+gauss3,e_runtime_by_cells,\Verb{const_coeff},routine,540,540,540,157464000,128,0.0815321
+gauss3,e_runtime_by_cells,\Verb{const_coeff},apply,560,560,560,175616000,128,0.0355134
+gauss3,e_runtime_by_cells,\Verb{const_coeff},routine,560,560,560,175616000,128,0.0918109
+gauss3,e_runtime_by_cells,\Verb{const_coeff},apply,580,580,580,195112000,128,0.0457799
+gauss3,e_runtime_by_cells,\Verb{const_coeff},routine,580,580,580,195112000,128,0.104624
+gauss3,e_runtime_by_cells,\Verb{const_coeff},apply,600,600,600,216000000,128,0.0458511
+gauss3,e_runtime_by_cells,\Verb{const_coeff},routine,600,600,600,216000000,128,0.109633
+gauss3,e_runtime_by_cells,\Verb{const_coeff},apply,620,620,620,238328000,128,0.0459069
+gauss3,e_runtime_by_cells,\Verb{const_coeff},routine,620,620,620,238328000,128,0.117953
+gauss3,e_runtime_by_cells,\Verb{const_coeff},apply,640,640,640,262144000,128,0.0465848
+gauss3,e_runtime_by_cells,\Verb{const_coeff},routine,640,640,640,262144000,128,0.122216
+gauss3,e_runtime_by_cells,\Verb{const_coeff},apply,660,660,660,287496000,128,0.0557988
+gauss3,e_runtime_by_cells,\Verb{const_coeff},routine,660,660,660,287496000,128,0.137028
+gauss3,e_runtime_by_cells,\Verb{const_coeff},apply,680,680,680,314432000,128,0.0601385
+gauss3,e_runtime_by_cells,\Verb{const_coeff},routine,680,680,680,314432000,128,0.15051
+gauss3,e_runtime_by_cells,\Verb{const_coeff},apply,700,700,700,343000000,128,0.0742246
+gauss3,e_runtime_by_cells,\Verb{const_coeff},routine,700,700,700,343000000,128,0.170748
+gauss3,e_runtime_by_cells,\Verb{const_coeff},apply,720,720,720,373248000,128,0.0782307
+gauss3,e_runtime_by_cells,\Verb{const_coeff},routine,720,720,720,373248000,128,0.184856
+gauss3,e_runtime_by_cells,\Verb{const_coeff},apply,740,740,740,405224000,128,0.0818047
+gauss3,e_runtime_by_cells,\Verb{const_coeff},routine,740,740,740,405224000,128,0.198507
+gauss3,e_runtime_by_cells,\Verb{const_coeff},apply,760,760,760,438976000,128,0.0797719
+gauss3,e_runtime_by_cells,\Verb{const_coeff},routine,760,760,760,438976000,128,0.208268
+gauss3,e_runtime_by_cells,\Verb{const_coeff},apply,780,780,780,474552000,128,0.0891163
+gauss3,e_runtime_by_cells,\Verb{const_coeff},routine,780,780,780,474552000,128,0.216832
+gauss3,e_runtime_by_cells,\Verb{const_coeff},apply,800,800,800,512000000,128,0.0962444
+gauss3,e_runtime_by_cells,\Verb{const_coeff},routine,800,800,800,512000000,128,0.23432
+gauss3,e_runtime_by_cells,\Verb{const_coeff},apply,820,820,820,551368000,128,0.107897
+gauss3,e_runtime_by_cells,\Verb{const_coeff},routine,820,820,820,551368000,128,0.263807
+gauss3,e_runtime_by_cells,\Verb{const_coeff},apply,840,840,840,592704000,128,0.127726
+gauss3,e_runtime_by_cells,\Verb{const_coeff},routine,840,840,840,592704000,128,0.295209
+gauss3,e_runtime_by_cells,\Verb{const_coeff},apply,860,860,860,636056000,128,0.124119
+gauss3,e_runtime_by_cells,\Verb{const_coeff},routine,860,860,860,636056000,128,0.299839
+gauss3,e_runtime_by_cells,\Verb{const_coeff},apply,880,880,880,681472000,128,0.124554
+gauss3,e_runtime_by_cells,\Verb{const_coeff},routine,880,880,880,681472000,128,0.307007
+gauss3,e_runtime_by_cells,\Verb{const_coeff},apply,900,900,900,729000000,128,0.13014
+gauss3,e_runtime_by_cells,\Verb{const_coeff},routine,900,900,900,729000000,128,0.333203
+gauss3,e_runtime_by_cells,\Verb{const_coeff},apply,920,920,920,778688000,128,0.146712
+gauss3,e_runtime_by_cells,\Verb{const_coeff},routine,920,920,920,778688000,128,0.366976
+gauss3,e_runtime_by_cells,\Verb{const_coeff},apply,940,940,940,830584000,128,0.153999
+gauss3,e_runtime_by_cells,\Verb{const_coeff},routine,940,940,940,830584000,128,0.378998
+gauss3,e_runtime_by_cells,\Verb{const_coeff},apply,960,960,960,884736000,128,0.183875
+gauss3,e_runtime_by_cells,\Verb{const_coeff},routine,960,960,960,884736000,128,0.412556
+gauss3,e_runtime_by_cells,\Verb{const_coeff},apply,980,980,980,941192000,128,0.189643
+gauss3,e_runtime_by_cells,\Verb{const_coeff},routine,980,980,980,941192000,128,0.451332
+gauss3,e_runtime_by_cells,\Verb{const_coeff},apply,1000,1000,1000,1000000000,128,0.186046
+gauss3,e_runtime_by_cells,\Verb{const_coeff},routine,1000,1000,1000,1000000000,128,0.441058
+gauss3,e_runtime_by_cells,\Verb{const_coeff},apply,1020,1020,1020,1061208000,128,0.186852
+gauss3,e_runtime_by_cells,\Verb{const_coeff},routine,1020,1020,1020,1061208000,128,0.474607
+gauss3,e_runtime_by_cells,\Verb{const_coeff},apply,1040,1040,1040,1124864000,128,0.211104
+gauss3,e_runtime_by_cells,\Verb{const_coeff},routine,1040,1040,1040,1124864000,128,0.51676
+gauss3,e_runtime_by_cells,\Verb{const_coeff},apply,1060,1060,1060,1191016000,128,0.218477
+gauss3,e_runtime_by_cells,\Verb{const_coeff},routine,1060,1060,1060,1191016000,128,0.528286
+gauss3,e_runtime_by_cells,\Verb{const_coeff},apply,1080,1080,1080,1259712000,128,0.243099
+gauss3,e_runtime_by_cells,\Verb{const_coeff},routine,1080,1080,1080,1259712000,128,0.584609
+gauss3,e_runtime_by_cells,\Verb{const_coeff},apply,1100,1100,1100,1331000000,128,0.261028
+gauss3,e_runtime_by_cells,\Verb{const_coeff},routine,1100,1100,1100,1331000000,128,0.630376
+gauss3,e_runtime_by_cells,\Verb{const_coeff},apply,1120,1120,1120,1404928000,128,0.262741
+gauss3,e_runtime_by_cells,\Verb{const_coeff},routine,1120,1120,1120,1404928000,128,0.641994
+gauss3,e_runtime_by_cells,\Verb{const_coeff},apply,1140,1140,1140,1481544000,128,0.264723
+gauss3,e_runtime_by_cells,\Verb{const_coeff},routine,1140,1140,1140,1481544000,128,0.642689
+gauss3,e_runtime_by_cells,\Verb{const_coeff},apply,1160,1160,1160,1560896000,128,0.28061
+gauss3,e_runtime_by_cells,\Verb{const_coeff},routine,1160,1160,1160,1560896000,128,0.674768
+gauss3,e_runtime_by_cells,\Verb{const_coeff},apply,1180,1180,1180,1643032000,128,0.312002
+gauss3,e_runtime_by_cells,\Verb{const_coeff},routine,1180,1180,1180,1643032000,128,0.770121
+gauss3,e_runtime_by_cells,\Verb{const_coeff},apply,1200,1200,1200,1728000000,128,0.318907
+gauss3,e_runtime_by_cells,\Verb{const_coeff},routine,1200,1200,1200,1728000000,128,0.782757
+gauss3,e_runtime_by_cells,\Verb{const_coeff},apply,1220,1220,1220,1815848000,128,0.366103
+gauss3,e_runtime_by_cells,\Verb{const_coeff},routine,1220,1220,1220,1815848000,128,0.826812
+gauss3,e_runtime_by_cells,\Verb{const_coeff},apply,1240,1240,1240,1906624000,128,0.359285
+gauss3,e_runtime_by_cells,\Verb{const_coeff},routine,1240,1240,1240,1906624000,128,0.875403
+gauss3,e_runtime_by_cells,\Verb{const_coeff},apply,1260,1260,1260,2000376000,128,0.371122
+gauss3,e_runtime_by_cells,\Verb{const_coeff},routine,1260,1260,1260,2000376000,128,0.909537
+gauss3,e_runtime_by_cells,\Verb{const_coeff},apply,1280,1280,1280,2097152000,128,0.365978
+gauss3,e_runtime_by_cells,\Verb{const_coeff},routine,1280,1280,1280,2097152000,128,0.914803
+gauss3,e_runtime_by_cells,\Verb{const_coeff},apply,1300,1300,1300,2197000000,128,0.41018
+gauss3,e_runtime_by_cells,\Verb{const_coeff},routine,1300,1300,1300,2197000000,128,0.969068
+gauss3,e_runtime_by_cells,\Verb{const_coeff},apply,1320,1320,1320,2299968000,128,0.415817
+gauss3,e_runtime_by_cells,\Verb{const_coeff},routine,1320,1320,1320,2299968000,128,1.00592
+gauss3,e_runtime_by_cells,\Verb{const_coeff},apply,1340,1340,1340,2406104000,128,0.472173
+gauss3,e_runtime_by_cells,\Verb{const_coeff},routine,1340,1340,1340,2406104000,128,1.07678
+gauss3,e_runtime_by_cells,\Verb{const_coeff},apply,1360,1360,1360,2515456000,128,0.478942
+gauss3,e_runtime_by_cells,\Verb{const_coeff},routine,1360,1360,1360,2515456000,128,1.13632
+gauss3,e_runtime_by_cells,\Verb{const_coeff},apply,1380,1380,1380,2628072000,128,0.48954
+gauss3,e_runtime_by_cells,\Verb{const_coeff},routine,1380,1380,1380,2628072000,128,1.14817
+gauss3,e_runtime_by_cells,\Verb{const_coeff},apply,1400,1400,1400,2744000000,128,0.483754
+gauss3,e_runtime_by_cells,\Verb{const_coeff},routine,1400,1400,1400,2744000000,128,1.22951
+gauss3,e_runtime_by_cells,\Verb{const_coeff},apply,1420,1420,1420,2863288000,128,0.520038
+gauss3,e_runtime_by_cells,\Verb{const_coeff},routine,1420,1420,1420,2863288000,128,1.26683
+gauss3,e_runtime_by_cells,\Verb{const_coeff},apply,1440,1440,1440,2985984000,128,0.541955
+gauss3,e_runtime_by_cells,\Verb{const_coeff},routine,1440,1440,1440,2985984000,128,1.28329
+gauss3,e_runtime_by_cells,\Verb{const_coeff},apply,1460,1460,1460,3112136000,128,0.573456
+gauss3,e_runtime_by_cells,\Verb{const_coeff},routine,1460,1460,1460,3112136000,128,1.41846
+gauss3,e_runtime_by_cells,\Verb{const_coeff},apply,1480,1480,1480,3241792000,128,0.619913
+gauss3,e_runtime_by_cells,\Verb{const_coeff},routine,1480,1480,1480,3241792000,128,1.47123
+gauss3,e_runtime_by_cells,\Verb{const_coeff},apply,1500,1500,1500,3375000000,128,0.623919
+gauss3,e_runtime_by_cells,\Verb{const_coeff},routine,1500,1500,1500,3375000000,128,1.51253
+gauss3,e_runtime_by_cells,\Verb{const_coeff},apply,1520,1520,1520,3511808000,128,0.628386
+gauss3,e_runtime_by_cells,\Verb{const_coeff},routine,1520,1520,1520,3511808000,128,1.52879
+gauss3,e_runtime_by_cells,\Verb{const_coeff},apply,1540,1540,1540,3652264000,128,0.645494
+gauss3,e_runtime_by_cells,\Verb{const_coeff},routine,1540,1540,1540,3652264000,128,1.57736
+gauss3,e_runtime_by_cells,\Verb{const_coeff},apply,1560,1560,1560,3796416000,128,0.692234
+gauss3,e_runtime_by_cells,\Verb{const_coeff},routine,1560,1560,1560,3796416000,128,1.63064
+gauss3,e_runtime_by_cells,\Verb{const_coeff},apply,1580,1580,1580,3944312000,128,0.717419
+gauss3,e_runtime_by_cells,\Verb{const_coeff},routine,1580,1580,1580,3944312000,128,1.76711
+gauss3,e_runtime_by_cells,\Verb{const_coeff},apply,1600,1600,1600,4096000000,128,0.789119
+gauss3,e_runtime_by_cells,\Verb{const_coeff},routine,1600,1600,1600,4096000000,128,1.84903
+
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},apply,100,100,100,1000000,128,0.00123424
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},routine,100,100,100,1000000,128,0.0119889
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},apply,120,120,120,1728000,128,0.00469479
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},routine,120,120,120,1728000,128,0.0164042
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},apply,140,140,140,2744000,128,0.00527933
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},routine,140,140,140,2744000,128,0.0183658
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},apply,160,160,160,4096000,128,0.00274227
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},routine,160,160,160,4096000,128,0.0195676
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},apply,180,180,180,5832000,128,0.00470608
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},routine,180,180,180,5832000,128,0.0224723
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},apply,200,200,200,8000000,128,0.00542853
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},routine,200,200,200,8000000,128,0.0228877
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},apply,220,220,220,10648000,128,0.00551003
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},routine,220,220,220,10648000,128,0.0240236
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},apply,240,240,240,13824000,128,0.00527607
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},routine,240,240,240,13824000,128,0.0231077
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},apply,260,260,260,17576000,128,0.00463846
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},routine,260,260,260,17576000,128,0.0253021
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},apply,280,280,280,21952000,128,0.00919065
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},routine,280,280,280,21952000,128,0.0298009
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},apply,300,300,300,27000000,128,0.0103937
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},routine,300,300,300,27000000,128,0.0319447
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},apply,320,320,320,32768000,128,0.0166078
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},routine,320,320,320,32768000,128,0.0404962
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},apply,340,340,340,39304000,128,0.0167803
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},routine,340,340,340,39304000,128,0.0418524
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},apply,360,360,360,46656000,128,0.0165921
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},routine,360,360,360,46656000,128,0.0440191
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},apply,380,380,380,54872000,128,0.0170565
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},routine,380,380,380,54872000,128,0.0474443
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},apply,400,400,400,64000000,128,0.0224308
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},routine,400,400,400,64000000,128,0.0577596
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},apply,420,420,420,74088000,128,0.0248483
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},routine,420,420,420,74088000,128,0.0623131
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},apply,440,440,440,85184000,128,0.0335056
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},routine,440,440,440,85184000,128,0.0753782
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},apply,460,460,460,97336000,128,0.0437231
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},routine,460,460,460,97336000,128,0.11253
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},apply,480,480,480,110592000,128,0.0383877
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},routine,480,480,480,110592000,128,0.0945455
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},apply,500,500,500,125000000,128,0.0388771
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},routine,500,500,500,125000000,128,0.0974497
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},apply,520,520,520,140608000,128,0.0437069
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},routine,520,520,520,140608000,128,0.10779
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},apply,540,540,540,157464000,128,0.0582599
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},routine,540,540,540,157464000,128,0.132217
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},apply,560,560,560,175616000,128,0.0576189
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},routine,560,560,560,175616000,128,0.140026
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},apply,580,580,580,195112000,128,0.073755
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},routine,580,580,580,195112000,128,0.162293
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},apply,600,600,600,216000000,128,0.0746978
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},routine,600,600,600,216000000,128,0.181799
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},apply,620,620,620,238328000,128,0.0743255
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},routine,620,620,620,238328000,128,0.182638
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},apply,640,640,640,262144000,128,0.0754897
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},routine,640,640,640,262144000,128,0.191093
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},apply,660,660,660,287496000,128,0.0912605
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},routine,660,660,660,287496000,128,0.216679
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},apply,680,680,680,314432000,128,0.0972178
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},routine,680,680,680,314432000,128,0.233381
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},apply,700,700,700,343000000,128,0.120336
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},routine,700,700,700,343000000,128,0.267549
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},apply,720,720,720,373248000,128,0.126876
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},routine,720,720,720,373248000,128,0.288653
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},apply,740,740,740,405224000,128,0.127526
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},routine,740,740,740,405224000,128,0.309483
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},apply,760,760,760,438976000,128,0.128372
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},routine,760,760,760,438976000,128,0.318508
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},apply,780,780,780,474552000,128,0.146692
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},routine,780,780,780,474552000,128,0.358075
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},apply,800,800,800,512000000,128,0.156577
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},routine,800,800,800,512000000,128,0.375048
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},apply,820,820,820,551368000,128,0.17543
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},routine,820,820,820,551368000,128,0.415632
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},apply,840,840,840,592704000,128,0.201196
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},routine,840,840,840,592704000,128,0.448776
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},apply,860,860,860,636056000,128,0.201516
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},routine,860,860,860,636056000,128,0.473629
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},apply,880,880,880,681472000,128,0.203415
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},routine,880,880,880,681472000,128,0.490793
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},apply,900,900,900,729000000,128,0.212949
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},routine,900,900,900,729000000,128,0.535095
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},apply,920,920,920,778688000,128,0.237654
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},routine,920,920,920,778688000,128,0.557124
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},apply,940,940,940,830584000,128,0.249881
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},routine,940,940,940,830584000,128,0.597064
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},apply,960,960,960,884736000,128,0.299301
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},routine,960,960,960,884736000,128,0.674268
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},apply,980,980,980,941192000,128,0.299949
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},routine,980,980,980,941192000,128,0.711653
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},apply,1000,1000,1000,1000000000,128,0.302041
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},routine,1000,1000,1000,1000000000,128,0.722838
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},apply,1020,1020,1020,1061208000,128,0.319801
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},routine,1020,1020,1020,1061208000,128,0.767507
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},apply,1040,1040,1040,1124864000,128,0.343389
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},routine,1040,1040,1040,1124864000,128,0.818358
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},apply,1060,1060,1060,1191016000,128,0.363045
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},routine,1060,1060,1060,1191016000,128,0.8485
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},apply,1080,1080,1080,1259712000,128,0.396823
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},routine,1080,1080,1080,1259712000,128,0.927995
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},apply,1100,1100,1100,1331000000,128,0.426677
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},routine,1100,1100,1100,1331000000,128,0.999955
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},apply,1120,1120,1120,1404928000,128,0.427559
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},routine,1120,1120,1120,1404928000,128,1.01435
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},apply,1140,1140,1140,1481544000,128,0.433111
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},routine,1140,1140,1140,1481544000,128,1.03268
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},apply,1160,1160,1160,1560896000,128,0.458807
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},routine,1160,1160,1160,1560896000,128,1.10382
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},apply,1180,1180,1180,1643032000,128,0.492394
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},routine,1180,1180,1180,1643032000,128,1.20297
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},apply,1200,1200,1200,1728000000,128,0.513909
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},routine,1200,1200,1200,1728000000,128,1.21255
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},apply,1220,1220,1220,1815848000,128,0.584436
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},routine,1220,1220,1220,1815848000,128,1.32907
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},apply,1240,1240,1240,1906624000,128,0.587288
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},routine,1240,1240,1240,1906624000,128,1.40454
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},apply,1260,1260,1260,2000376000,128,0.598814
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},routine,1260,1260,1260,2000376000,128,1.44397
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},apply,1280,1280,1280,2097152000,128,0.59735
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},routine,1280,1280,1280,2097152000,128,1.44445
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},apply,1300,1300,1300,2197000000,128,0.663504
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},routine,1300,1300,1300,2197000000,128,1.53951
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},apply,1320,1320,1320,2299968000,128,0.680608
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},routine,1320,1320,1320,2299968000,128,1.59316
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},apply,1340,1340,1340,2406104000,128,0.755736
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},routine,1340,1340,1340,2406104000,128,1.72279
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},apply,1360,1360,1360,2515456000,128,0.780005
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},routine,1360,1360,1360,2515456000,128,1.79585
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},apply,1380,1380,1380,2628072000,128,0.786382
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},routine,1380,1380,1380,2628072000,128,1.84818
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},apply,1400,1400,1400,2744000000,128,0.797088
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},routine,1400,1400,1400,2744000000,128,1.97015
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},apply,1420,1420,1420,2863288000,128,0.847885
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},routine,1420,1420,1420,2863288000,128,1.99616
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},apply,1440,1440,1440,2985984000,128,0.892113
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},routine,1440,1440,1440,2985984000,128,2.09884
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},apply,1460,1460,1460,3112136000,128,0.935522
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},routine,1460,1460,1460,3112136000,128,2.26813
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},apply,1480,1480,1480,3241792000,128,1.01023
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},routine,1480,1480,1480,3241792000,128,2.33459
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},apply,1500,1500,1500,3375000000,128,1.01802
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},routine,1500,1500,1500,3375000000,128,2.39537
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},apply,1520,1520,1520,3511808000,128,1.02797
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},routine,1520,1520,1520,3511808000,128,2.41826
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},apply,1540,1540,1540,3652264000,128,1.07527
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},routine,1540,1540,1540,3652264000,128,2.51263
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},apply,1560,1560,1560,3796416000,128,1.12822
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},routine,1560,1560,1560,3796416000,128,2.65955
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},apply,1580,1580,1580,3944312000,128,1.16294
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},routine,1580,1580,1580,3944312000,128,2.80814
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},apply,1600,1600,1600,4096000000,128,1.28402
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff},routine,1600,1600,1600,4096000000,128,2.92375
+
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },apply,100,100,100,1000000,128,0.000847379
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },routine,100,100,100,1000000,128,0.0204159
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },apply,120,120,120,1728000,128,0.00141334
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },routine,120,120,120,1728000,128,0.0241736
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },apply,140,140,140,2744000,128,0.0029568
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },routine,140,140,140,2744000,128,0.0288989
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },apply,160,160,160,4096000,128,0.00304414
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },routine,160,160,160,4096000,128,0.033999
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },apply,180,180,180,5832000,128,0.00400145
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },routine,180,180,180,5832000,128,0.0364807
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },apply,200,200,200,8000000,128,0.00552223
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },routine,200,200,200,8000000,128,0.0410016
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },apply,220,220,220,10648000,128,0.00589302
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },routine,220,220,220,10648000,128,0.0447812
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },apply,240,240,240,13824000,128,0.00544923
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },routine,240,240,240,13824000,128,0.043649
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },apply,260,260,260,17576000,128,0.00621293
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },routine,260,260,260,17576000,128,0.0482063
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },apply,280,280,280,21952000,128,0.00957713
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },routine,280,280,280,21952000,128,0.0566086
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },apply,300,300,300,27000000,128,0.011256
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },routine,300,300,300,27000000,128,0.0653027
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },apply,320,320,320,32768000,128,0.0200036
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },routine,320,320,320,32768000,128,0.0849437
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },apply,340,340,340,39304000,128,0.0197968
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },routine,340,340,340,39304000,128,0.0911884
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },apply,360,360,360,46656000,128,0.0276848
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },routine,360,360,360,46656000,128,0.125033
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },apply,380,380,380,54872000,128,0.0202962
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },routine,380,380,380,54872000,128,0.108413
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },apply,400,400,400,64000000,128,0.0271097
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },routine,400,400,400,64000000,128,0.129415
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },apply,420,420,420,74088000,128,0.0299009
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },routine,420,420,420,74088000,128,0.147026
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },apply,440,440,440,85184000,128,0.04071
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },routine,440,440,440,85184000,128,0.176232
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },apply,460,460,460,97336000,128,0.0470085
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },routine,460,460,460,97336000,128,0.201732
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },apply,480,480,480,110592000,128,0.0471511
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },routine,480,480,480,110592000,128,0.239362
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },apply,500,500,500,125000000,128,0.0473339
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },routine,500,500,500,125000000,128,0.229958
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },apply,520,520,520,140608000,128,0.0538973
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },routine,520,520,520,140608000,128,0.258609
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },apply,540,540,540,157464000,128,0.0625597
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },routine,540,540,540,157464000,128,0.296028
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },apply,560,560,560,175616000,128,0.0731282
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },routine,560,560,560,175616000,128,0.335776
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },apply,580,580,580,195112000,128,0.0916598
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },routine,580,580,580,195112000,128,0.386585
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },apply,600,600,600,216000000,128,0.0918476
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },routine,600,600,600,216000000,128,0.411759
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },apply,620,620,620,238328000,128,0.0921863
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },routine,620,620,620,238328000,128,0.435597
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },apply,640,640,640,262144000,128,0.0933801
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },routine,640,640,640,262144000,128,0.467436
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },apply,660,660,660,287496000,128,0.120424
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },routine,660,660,660,287496000,128,0.54565
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },apply,680,680,680,314432000,128,0.125633
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },routine,680,680,680,314432000,128,0.593644
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },apply,700,700,700,343000000,128,0.150195
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },routine,700,700,700,343000000,128,0.6532
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },apply,720,720,720,373248000,128,0.158637
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },routine,720,720,720,373248000,128,0.700784
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },apply,740,740,740,405224000,128,0.158673
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },routine,740,740,740,405224000,128,0.741424
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },apply,760,760,760,438976000,128,0.1715
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },routine,760,760,760,438976000,128,0.786754
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },apply,780,780,780,474552000,128,0.181898
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },routine,780,780,780,474552000,128,0.851699
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },apply,800,800,800,512000000,128,0.205479
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },routine,800,800,800,512000000,128,0.934378
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },apply,820,820,820,551368000,128,0.218821
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },routine,820,820,820,551368000,128,1.006
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },apply,840,840,840,592704000,128,0.25178
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },routine,840,840,840,592704000,128,1.11126
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },apply,860,860,860,636056000,128,0.252851
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },routine,860,860,860,636056000,128,1.15523
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },apply,880,880,880,681472000,128,0.254774
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },routine,880,880,880,681472000,128,1.22055
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },apply,900,900,900,729000000,128,0.270534
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },routine,900,900,900,729000000,128,1.31172
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },apply,920,920,920,778688000,128,0.303727
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },routine,920,920,920,778688000,128,1.39535
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },apply,940,940,940,830584000,128,0.314153
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },routine,940,940,940,830584000,128,1.46854
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },apply,960,960,960,884736000,128,0.381277
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },routine,960,960,960,884736000,128,1.64955
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },apply,980,980,980,941192000,128,0.375705
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },routine,980,980,980,941192000,128,1.72099
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },apply,1000,1000,1000,1000000000,128,0.384525
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },routine,1000,1000,1000,1000000000,128,1.77235
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },apply,1020,1020,1020,1061208000,128,0.392919
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },routine,1020,1020,1020,1061208000,128,1.85749
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },apply,1040,1040,1040,1124864000,128,0.435752
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },routine,1040,1040,1040,1124864000,128,2.02775
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },apply,1060,1060,1060,1191016000,128,0.458204
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },routine,1060,1060,1060,1191016000,128,2.09231
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },apply,1080,1080,1080,1259712000,128,0.506462
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },routine,1080,1080,1080,1259712000,128,2.27578
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },apply,1100,1100,1100,1331000000,128,0.534947
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },routine,1100,1100,1100,1331000000,128,2.43491
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },apply,1120,1120,1120,1404928000,128,0.547726
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },routine,1120,1120,1120,1404928000,128,2.51185
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },apply,1140,1140,1140,1481544000,128,0.550292
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },routine,1140,1140,1140,1481544000,128,2.57055
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },apply,1160,1160,1160,1560896000,128,0.576181
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },routine,1160,1160,1160,1560896000,128,2.72992
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },apply,1180,1180,1180,1643032000,128,0.622675
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },routine,1180,1180,1180,1643032000,128,2.93344
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },apply,1200,1200,1200,1728000000,128,0.651716
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },routine,1200,1200,1200,1728000000,128,3.02647
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },apply,1220,1220,1220,1815848000,128,0.732186
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },routine,1220,1220,1220,1815848000,128,3.27049
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },apply,1240,1240,1240,1906624000,128,0.734915
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },routine,1240,1240,1240,1906624000,128,3.40747
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },apply,1260,1260,1260,2000376000,128,0.748712
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },routine,1260,1260,1260,2000376000,128,3.52201
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },apply,1280,1280,1280,2097152000,128,0.755552
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },routine,1280,1280,1280,2097152000,128,3.62929
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },apply,1300,1300,1300,2197000000,128,0.827994
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },routine,1300,1300,1300,2197000000,128,3.84419
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },apply,1320,1320,1320,2299968000,128,0.852381
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },routine,1320,1320,1320,2299968000,128,4.00449
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },apply,1340,1340,1340,2406104000,128,0.945456
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },routine,1340,1340,1340,2406104000,128,4.28311
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },apply,1360,1360,1360,2515456000,128,0.9779
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },routine,1360,1360,1360,2515456000,128,4.45476
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },apply,1380,1380,1380,2628072000,128,0.98535
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },routine,1380,1380,1380,2628072000,128,4.58608
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },apply,1400,1400,1400,2744000000,128,0.992367
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },routine,1400,1400,1400,2744000000,128,4.817
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },apply,1420,1420,1420,2863288000,128,1.06443
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },routine,1420,1420,1420,2863288000,128,4.96009
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },apply,1440,1440,1440,2985984000,128,1.10818
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },routine,1440,1440,1440,2985984000,128,5.18411
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },apply,1460,1460,1460,3112136000,128,1.17416
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },routine,1460,1460,1460,3112136000,128,5.55199
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },apply,1480,1480,1480,3241792000,128,1.26974
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },routine,1480,1480,1480,3241792000,128,5.802
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },apply,1500,1500,1500,3375000000,128,1.27652
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },routine,1500,1500,1500,3375000000,128,6.02777
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },apply,1520,1520,1520,3511808000,128,1.28469
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },routine,1520,1520,1520,3511808000,128,6.24712
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },apply,1540,1540,1540,3652264000,128,1.32422
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },routine,1540,1540,1540,3652264000,128,6.56141
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },apply,1560,1560,1560,3796416000,128,1.4133
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },routine,1560,1560,1560,3796416000,128,7.02753
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },apply,1580,1580,1580,3944312000,128,1.45526
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },routine,1580,1580,1580,3944312000,128,7.43762
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },apply,1600,1600,1600,4096000000,128,1.61054
+gauss3,e_runtime_by_cells,\Verb{nonconst_coeff_precalc          },routine,1600,1600,1600,4096000000,128,7.99895

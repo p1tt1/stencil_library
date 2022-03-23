@@ -1,0 +1,17 @@
+node_id,bench_id,impl_id,region_id,obj_cols,obj_rows,obj_levels,threads,runtime,efficiency
+gauss3,strong_scale_env_threads_spread,linear_stencil_para,apply,2050,2050,2050,1,30.8824,1.0
+gauss3,strong_scale_env_threads_spread,linear_stencil_para,routine,2050,2050,2050,1,47.6698,1.0
+gauss3,strong_scale_env_threads_spread,linear_stencil_para,apply,2050,2050,2050,2,16.8217,0.9179333836651469
+gauss3,strong_scale_env_threads_spread,linear_stencil_para,routine,2050,2050,2050,2,32.6422,0.7301866908480433
+gauss3,strong_scale_env_threads_spread,linear_stencil_para,apply,2050,2050,2050,4,8.5889,0.8989043998649419
+gauss3,strong_scale_env_threads_spread,linear_stencil_para,routine,2050,2050,2050,4,24.3772,0.488876901366851
+gauss3,strong_scale_env_threads_spread,linear_stencil_para,apply,2050,2050,2050,8,4.88696,0.789918476926351
+gauss3,strong_scale_env_threads_spread,linear_stencil_para,routine,2050,2050,2050,8,20.5556,0.28988329214423325
+gauss3,strong_scale_env_threads_spread,linear_stencil_para,apply,2050,2050,2050,16,4.26537,0.4525164288209464
+gauss3,strong_scale_env_threads_spread,linear_stencil_para,routine,2050,2050,2050,16,19.9595,0.149270397555049
+gauss3,strong_scale_env_threads_spread,linear_stencil_para,apply,2050,2050,2050,32,3.86371,0.24977935714636967
+gauss3,strong_scale_env_threads_spread,linear_stencil_para,routine,2050,2050,2050,32,19.5791,0.0760852771577856
+gauss3,strong_scale_env_threads_spread,linear_stencil_para,apply,2050,2050,2050,64,3.68402,0.13098123788687357
+gauss3,strong_scale_env_threads_spread,linear_stencil_para,routine,2050,2050,2050,64,19.2122,0.038769147989298466
+gauss3,strong_scale_env_threads_spread,linear_stencil_para,apply,2050,2050,2050,128,3.57487,0.06749021642745051
+gauss3,strong_scale_env_threads_spread,linear_stencil_para,routine,2050,2050,2050,128,18.7333,0.019880123229756637

@@ -1,0 +1,2 @@
+node_id,bench_id,impl_id,threads,obj_cols,obj_rows,obj_levels,mflop_s,mbytes_s
+gauss3,roofline,linear_stencil_noedgecases,128,2048,2048,2048,354230.8177,188637.7366

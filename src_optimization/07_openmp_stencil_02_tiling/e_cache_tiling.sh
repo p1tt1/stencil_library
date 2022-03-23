@@ -1,0 +1,214 @@
+#!/usr/bin/env bash
+
+#
+# CONFIG
+#
+
+OBJ_COLS=2048
+OBJ_LEVELS_ROWS=2048
+
+TILINGS_COLS=(4 8 16 32 64 128 256 512 1024 2048)
+TILINGS_LEVELS_ROWS=(1 2 4 8 16 32 64 128 256 512 1024 2048)
+
+THREADS=16
+
+OBJ_FACTOR=2048
+
+OMP_PLACES=threads
+OMP_PROC_BIND=spread
+
+APP_PATH=${1:-./e_linear_stencil_tiling}
+
+ENABLE_TELEGRAM=true
+
+#
+# ------------------------------
+#
+
+#
+# FUNCTIONS
+#
+
+filename() {
+  echo "$(basename $(readlink -f $1))"
+}
+
+log_console() {
+  echo -e "$BLUE $1 $NORMAL"
+}
+warning_console() {
+  echo -e "$YELLOW > WARNING - $1 $NORMAL"
+}
+
+error_console() {
+  echo ""
+  echo -e "$RED >>> ERROR - $1 $NORMAL" >&2
+}
+
+output() {
+  echo $1 >> $OUTPUT_FILE
+}
+
+log_telegram() {
+  if [ "${ENABLE_TELEGRAM}" = true ]; then
+    curl -s "https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendMessage?chat_id=${TELEGRAM_CHAT_ID}&text=${1}" >/dev/null
+  fi
+}
+
+log_telegram_silent() {
+  if [ "${ENABLE_TELEGRAM}" = true ]; then
+    curl -s "https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendMessage?chat_id=${TELEGRAM_CHAT_ID}&text=${1}&disable_notification=true" >/dev/null
+  fi
+}
+
+log_everywhere() {
+  log_console "$1"
+  log_telegram "$1"
+}
+
+log_everywhere_silent() {
+  log_console "$1"
+  log_telegram_silent "$1"
+}
+
+timestamp() {
+  date +%s
+}
+
+elapsedTimeMessage() {
+  local l_elapsed=$(( $2 - $1 ))
+  eval "echo Elapsed time: $(date -ud "@$l_elapsed" +'$((%s/3600/24)) days %H hr %M min %S sec')"
+}
+
+thread_config(){
+  local thread_id_max=$(( $1 - 1 ))
+  if [ $thread_id_max -eq 0 ]
+  then
+    local config="N:0"
+  else
+    local config="N:0-$thread_id_max"
+  fi
+  echo $config
+}
+
+bench_cmd(){
+  echo "likwid-perfctr -C $(thread_config $1) -f -g CACHE -O $APP_PATH"
+}
+
+#
+# ------------------------------
+#
+
+#
+# ENVIRONMENT CHECK
+#
+
+if [ -z ${TELEGRAM_BOT_TOKEN} ]; then
+  error_console "TELEGRAM_BOT_TOKEN isn't defined."
+  exit 1
+fi
+if [ -z ${TELEGRAM_CHAT_ID} ]; then
+  error_console "TELEGRAM_CHAT_ID isn't defined."
+  exit 1
+fi
+
+#
+# ------------------------------
+#
+
+#
+# PROPERTIES
+#
+
+APP_ID=$(filename $APP_PATH)
+
+NODE_ID=${NODE_ID:-undefined_node}
+BENCH_ID="cache"
+SCRIPT_PATH=$(readlink -f $0)
+REGION_ID_APPLY='apply'
+REGION_ID_ROUTINE='routine'
+
+# Output colors
+NORMAL="\\033[0;39m"
+RED="\\033[1;31m"
+BLUE="\\033[0;34m"
+YELLOW="\\033[0;33m"
+
+OUTPUT_FILE="${APP_ID}_${BENCH_ID}_${NODE_ID}.csv"
+
+TIME_BENCHMARK_STARTED=$(timestamp)
+
+log_everywhere_silent "benchmark started ($SCRIPT_PATH)"
+
+
+BENCH_CMD="likwid-perfctr -C S0:1 -f -g CACHE -m -O ${APP}"
+
+#
+# clear file
+#
+> $OUTPUT_FILE
+output "node_id,bench_id,impl_id,region_id,obj_levels_rows,obj_cols,n_tiling_levels_rows,n_tiling_cols,actual_cpu_clock,max_cpu_clock,retired_instructions,cpu_clocks_unhalted,data_cache_accesses,data_cache_refills_all,runtime,runtime_unhalted,clock,cpi,data_cache_requests,data_cache_request_rate,data_cache_misses,data_cache_miss_rate,data_cache_miss_ratio"
+
+for TILING_LEVELS_ROW in ${TILINGS_LEVELS_ROWS[@]}; do
+  for TILING_COLS in ${TILINGS_COLS[@]}; do
+    CURRENT_CMD="$(bench_cmd $THREADS) $OBJ_COLS $OBJ_LEVELS_ROWS $OBJ_LEVELS_ROWS $TILING_COLS $TILING_LEVELS_ROW $TILING_LEVELS_ROW"
+    log "\$ $CURRENT_CMD"
+
+    log_everywhere_silent "($(( $INDEX + 1 ))/${#THREAD_LIST[@]}) \$ $CURRENT_CMD"
+
+    CURRENT_OUTPUT=$($CURRENT_CMD)
+
+    #
+    # parse results
+    #
+
+    IMPL_ID=$(echo "$CURRENT_OUTPUT"    | grep "IMPL_ID_IMPL"                | cut -d ',' -f 2)
+    OBJ_COLS_RESULT=$(echo "$CURRENT_OUTPUT"   | grep "OBJ_COLS_IMPL"               | cut -d ',' -f 2)
+    OBJ_ROWS_RESULT=$(echo "$CURRENT_OUTPUT"   | grep "OBJ_ROWS_IMPL"               | cut -d ',' -f 2)
+    OBJ_LEVELS_RESULT=$(echo "$CURRENT_OUTPUT" | grep "OBJ_LEVELS_IMPL"             | cut -d ',' -f 2)
+    RUNTIME_APPLY=$(echo "$CURRENT_OUTPUT"    | grep "RUNTIME_APPLY_IMPL"                | cut -d ',' -f 2)
+
+    ACTUAL_CPU_CLOCK=$(echo "$CURRENT_OUTPUT"         | grep "ACTUAL_CPU_CLOCK"         | cut -d ',' -f 3)
+    MAX_CPU_CLOCK=$(echo "$CURRENT_OUTPUT"            | grep "MAX_CPU_CLOCK"            | cut -d ',' -f 3)
+    RETIRED_INSTRUCTIONS=$(echo "$CURRENT_OUTPUT"     | grep "RETIRED_INSTRUCTIONS"     | cut -d ',' -f 3)
+    CPU_CLOCKS_UNHALTED=$(echo "$CURRENT_OUTPUT"      | grep "CPU_CLOCKS_UNHALTED"      | cut -d ',' -f 3)
+    DATA_CACHE_ACCESSES=$(echo "$CURRENT_OUTPUT"      | grep "DATA_CACHE_ACCESSES"      | cut -d ',' -f 3)
+    DATA_CACHE_REFILLS_ALL=$(echo "$CURRENT_OUTPUT"   | grep "DATA_CACHE_REFILLS_ALL"   | cut -d ',' -f 3)
+    RUNTIME=$(echo "$CURRENT_OUTPUT"                  | grep "Runtime (RDTSC) \[s\]"    | cut -d ',' -f 2)
+    RUNTIME_UNHALTED=$(echo "$CURRENT_OUTPUT"         | grep "Runtime unhalted \[s\]"   | cut -d ',' -f 2)
+    CLOCK=$(echo "$CURRENT_OUTPUT"                    | grep "Clock \[MHz\]"            | cut -d ',' -f 2)
+    CPI=$(echo "$CURRENT_OUTPUT"                      | grep "CPI"                      | cut -d ',' -f 2)
+    DATA_CACHE_REQUESTS=$(echo "$CURRENT_OUTPUT"      | grep "data cache requests"      | cut -d ',' -f 2)
+    DATA_CACHE_REQUEST_RATE=$(echo "$CURRENT_OUTPUT"  | grep "data cache request rate"  | cut -d ',' -f 2)
+    DATA_CACHE_MISSES=$(echo "$CURRENT_OUTPUT"        | grep "data cache misses"        | cut -d ',' -f 2)
+    DATA_CACHE_MISS_RATE=$(echo "$CURRENT_OUTPUT"     | grep "data cache miss rate"     | cut -d ',' -f 2)
+    DATA_CACHE_MISS_RATIO=$(echo "$CURRENT_OUTPUT"    | grep "data cache miss ratio"    | cut -d ',' -f 2)
+
+    # echo ACTUAL_CPU_CLOCK: $ACTUAL_CPU_CLOCK
+    # echo MAX_CPU_CLOCK: $MAX_CPU_CLOCK
+    # echo RETIRED_INSTRUCTIONS: $RETIRED_INSTRUCTIONS
+    # echo CPU_CLOCKS_UNHALTED: $CPU_CLOCKS_UNHALTED
+    # echo DATA_CACHE_ACCESSES: $DATA_CACHE_ACCESSES
+    # echo DATA_CACHE_REFILLS_ALL: $DATA_CACHE_REFILLS_ALL
+    # echo RUNTIME: $RUNTIME
+    # echo RUNTIME_UNHALTED: $RUNTIME_UNHALTED
+    # echo CLOCK: $CLOCK
+    # echo CPI: $CPI
+    # echo DATA_CACHE_REQUESTS: $DATA_CACHE_REQUESTS
+    # echo DATA_CACHE_REQUEST_RATE: $DATA_CACHE_REQUEST_RATE
+    # echo DATA_CACHE_MISSES: $DATA_CACHE_MISSES
+    # echo DATA_CACHE_MISS_RATE: $DATA_CACHE_MISS_RATE
+    # echo DATA_CACHE_MISS_RATIO: $DATA_CACHE_MISS_RATIO
+
+    output "$NODE_ID,linear_stencil_tiling,time_apply,$OBJ_LEVELS_ROWS_RESULT,$OBJ_COLS_RESULT,$TILING_LEVELS_ROW,$TILING_COLS,$ACTUAL_CPU_CLOCK,$MAX_CPU_CLOCK,$RETIRED_INSTRUCTIONS,$CPU_CLOCKS_UNHALTED,$DATA_CACHE_ACCESSES,$DATA_CACHE_REFILLS_ALL,$RUNTIME,$RUNTIME_UNHALTED,$CLOCK,$CPI,$DATA_CACHE_REQUESTS,$DATA_CACHE_REQUEST_RATE,$DATA_CACHE_MISSES,$DATA_CACHE_MISS_RATE,$DATA_CACHE_MISS_RATIO"
+  done
+  echo ---
+done
+
+TIME_CURRENT=$(timestamp)
+log "$(elapsedTimeMessage $TIME_BENCHMARK_STARTED $TIME_CURRENT)"
+log_telegram_silent "$(elapsedTimeMessage $TIME_BENCHMARK_STARTED $TIME_CURRENT)"
+log "benchmark finished"
+log "=================="
+log_telegram "benchmark finished"
+log_telegram "=================="

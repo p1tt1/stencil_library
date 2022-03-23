@@ -1,0 +1,9 @@
+node_id,bench_id,impl_id,region_id,obj_cols,obj_rows,obj_levels,obj_cells,threads,mflop_s,mbytes_s
+gauss3,e_roofline,\Verb{linear_nonconst_coeff},apply,1024,1024,1024,1073741824,128,175671.3852,225647.1620
+gauss3,e_roofline,\Verb{linear_nonconst_coeff_precalc},apply,1024,1024,1024,1073741824,128,36400.2331,224913.8756
+gauss4,e_roofline,\Verb{nonlinear_pow2},apply,1024,1024,1024,1073741824,128,200284.1210,225663.5252
+gauss4,e_roofline,\Verb{nonlinear_exp},apply,1024,1024,1024,1073741824,128,899734.5041,196085.3308
+gauss4,e_roofline,\Verb{nonlinear_pow4_3},apply,1024,1024,1024,1073741824,128,739720.6792,72449.4885
+gauss4,e_roofline,\Verb{nonlinear_costly_0},apply,1024,1024,1024,1073741824,128,720769.8869,52070.6369
+gauss4,e_roofline,\Verb{nonlinear_costly_1},apply,1024,1024,1024,1073741824,128,734015.8833,35528.6988
+gauss3,e_roofline,\Verb{nonlinear_costly_2},apply,1024,1024,1024,1073741824,128,738829.0969,43622.7623

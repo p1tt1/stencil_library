@@ -1,0 +1,8 @@
+node_id,bench_id,impl_id,region_id,obj_cols,obj_rows,obj_levels,obj_cells,threads,mflop_s,mbytes_s
+gauss3,e_roofline,unoptimized,apply,1024,1024,1024,1073741824,1,1233.6875,4718.6137
+gauss3,e_roofline,compiler_optimized,apply,1024,1024,1024,1073741824,1,4771.6505,20937.2976
+gauss3,e_roofline,vcl_vectorization,apply,1026,1026,1026,1080045576,1,6591.2099,29291.8318
+gauss3,e_roofline,tiling,apply,1026,1026,1026,1080045576,1,11404.9259,12873.5946
+gauss3,e_roofline,openmp,apply,1026,1026,1026,1080045576,128,30711.7978,91624.5163
+gauss3,e_roofline,openmp_firsttouch,apply,1026,1026,1026,1080045576,128,72274.5491,227847.9513
+gauss3,e_roofline,openmp_noedgecases,apply,1024,1024,1024,1073741824,128,97012.6825,230394.4012

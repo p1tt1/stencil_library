@@ -1,0 +1,13 @@
+node_id,bench_id,impl_id,func_id,region_id,obj_cols,obj_rows,obj_levels,obj_cells,threads,mflop_s,mbytes_s
+gauss4,e_roofline,nonlinear,mul2,apply,1024,1024,1024,1073741824,128,200068.4525,224263.1970
+gauss4,e_roofline,nonlinear,mul2,overall,1024,1024,1024,1073741824,128,38251.0667,103046.6423
+gauss4,e_roofline,nonlinear,pow2,apply,1024,1024,1024,1073741824,128,200284.1210,225663.5252
+gauss4,e_roofline,nonlinear,pow2,overall,1024,1024,1024,1073741824,128,37108.5492,102311.9923
+gauss4,e_roofline,nonlinear,exp,apply,1024,1024,1024,1073741824,128,899734.5041,196085.3308
+gauss4,e_roofline,nonlinear,exp,overall,1024,1024,1024,1073741824,128,189056.4651,100226.5482
+gauss4,e_roofline,nonlinear,pow4_3,apply,1024,1024,1024,1073741824,128,739720.6792,72449.4885
+gauss4,e_roofline,nonlinear,pow4_3,overall,1024,1024,1024,1073741824,128,316314.3704,73418.0741
+gauss4,e_roofline,nonlinear,costly_0,apply,1024,1024,1024,1073741824,128,720769.8869,52070.6369
+gauss4,e_roofline,nonlinear,costly_0,overall,1024,1024,1024,1073741824,128,391687.8926,63442.5131
+gauss4,e_roofline,nonlinear,costly_1,apply,1024,1024,1024,1073741824,128,734015.8833,35528.6988
+gauss4,e_roofline,nonlinear,costly_1,overall,1024,1024,1024,1073741824,128,476864.8692,49105.5461

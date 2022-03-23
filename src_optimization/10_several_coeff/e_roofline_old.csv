@@ -1,0 +1,3 @@
+node_id,bench_id,impl_id,region_id,threads,obj_cols,obj_rows,obj_levels,mflop_s,mbytes_s
+gauss3,roofline,linear_stencil_several_coeff,apply,128,2048,2048,2048,180244.5499,226091.5731
+gauss3,roofline,linear_stencil_several_coeff,overall,128,2048,2048,2048,394331.3302,167404.3071

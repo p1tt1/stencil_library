@@ -1,0 +1,5 @@
+node_id,bench_id,impl_id,region_id,obj_cols,obj_rows,obj_levels,obj_cells,threads,mflop_s,mbytes_s
+gauss3,e_roofline,\Verb{unoptimized},apply,1024,1024,1024,1073741824,1,1233.6875,4718.6137
+gauss3,e_roofline,\Verb{compiler_optimized},apply,1024,1024,1024,1073741824,1,4771.6505,20937.2976
+gauss3,e_roofline,\Verb{auto_vectorization},apply,1026,1026,1026,1080045576,1,6676.6681,29433.9500
+gauss3,e_roofline,\Verb{vcl_vectorization},apply,1026,1026,1026,1080045576,1,6591.2099,29291.8318

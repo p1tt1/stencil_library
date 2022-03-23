@@ -1,0 +1,9 @@
+node_id,bench_id,impl_id,func_id,region_id,obj_cols,obj_rows,obj_levels,obj_cells,threads,mflop_s,mbytes_s
+gauss3,e_roofline,cg_nonlinear,mul2,apply,1500,1500,1500,3375000000,128,48048.3794,184734.3250
+gauss3,e_roofline,cg_nonlinear,mul2,overall,1500,1500,1500,3375000000,128,49628.4884,193874.0921
+gauss3,e_roofline,cg_nonlinear,pow2,apply,1500,1500,1500,3375000000,128,47651.4487,188163.7661
+gauss3,e_roofline,cg_nonlinear,pow2,overall,1500,1500,1500,3375000000,128,50693.9530,195523.4434
+gauss4,e_roofline,cg_nonlinear,exp,apply,1500,1500,1500,3375000000,128,94192.4723,45518.0741
+gauss4,e_roofline,cg_nonlinear,exp,overall,1500,1500,1500,3375000000,128,95554.1715,46155.4797
+gauss3,e_roofline,cg_nonlinear,pow4_3,apply,1500,1500,1500,3375000000,128,58905.5953,148699.1698
+gauss3,e_roofline,cg_nonlinear,pow4_3,overall,1500,1500,1500,3375000000,128,62245.5994,154365.6573

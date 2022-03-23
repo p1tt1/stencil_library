@@ -1,0 +1,13 @@
+node_id,bench_id,impl_id,region_id,obj_cols,obj_rows,obj_levels,obj_cells,threads,mflop_s,mbytes_s
+gauss3,e_roofline,\Verb{stencil_apply_unoptimized},apply,1024,1024,1024,1073741824,1,1233.6875,4718.6137
+gauss3,e_roofline,\Verb{stencil_overall_unoptimized},overall,1024,1024,1024,1073741824,1,987.4349,4917.3622
+gauss3,e_roofline,\Verb{band_matrix_apply_unoptimized},apply,1024,1024,1024,1073741824,1,623.6196,3894.6125
+gauss3,e_roofline,\Verb{band_matrix_overall_unoptimized},overall,1024,1024,1024,1073741824,1,375.9154,4150.9385
+gauss3,e_roofline,\Verb{csr_matrix_apply_unoptimized},apply,1024,1024,1024,1073741824,1,540.3527,5457.4176
+gauss3,e_roofline,\Verb{csr_matrix_overall_unoptimized},overall,1024,1024,1024,1073741824,1,149.1231,5096.6314
+gauss3,e_roofline,\Verb{stencil_apply_compiler_optimized},apply,1024,1024,1024,1073741824,1,4771.6505,20937.2976
+gauss3,e_roofline,\Verb{stencil_overall_compiler_optimized},overall,1024,1024,1024,1073741824,1,3249.9749,18624.0478
+gauss3,e_roofline,\Verb{band_matrix_apply_compiler_optimized},apply,1024,1024,1024,1073741824,1,2136.1619,13284.4153
+gauss3,e_roofline,\Verb{band_matrix_overall_compiler_optimized    },overall,1024,1024,1024,1073741824,1,760.1283,8323.9568
+gauss3,e_roofline,\Verb{csr_matrix_apply_compiler_optimized},apply,1024,1024,1024,1073741824,1,1384.4333,13825.6043
+gauss3,e_roofline,\Verb{csr_matrix_overall_compiler_optimized},overall,1024,1024,1024,1073741824,1,341.3636,12107.0976

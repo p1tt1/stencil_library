@@ -1,0 +1,2 @@
+node_id,bench_id,impl_id,region_id,obj_cols,obj_rows,obj_levels,tiling_cols,tiling_rows,tiling_levels,runtime,clock,cpi,memory_bandwidth,memory_data_volume,performance
+gauss3,roofline,linear_stencil_notiling,time_apply,2050,2050,2050,0,0,0,31.9854,2983.1353,2.1339,35942.5797,1149.6364,3491.4972

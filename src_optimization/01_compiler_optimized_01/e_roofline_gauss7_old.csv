@@ -1,0 +1,13 @@
+node_id,bench_id,impl_id,region_id,obj_cols,obj_rows,obj_levels,obj_cells,threads,mflop_s,mbytes_s
+gauss7,e_roofline,stencil_apply_unoptimized,apply,1024,1024,1024,1073741824,1,836.5608,2518.2443
+gauss7,e_roofline,stencil_overall_unoptimized,overall,1024,1024,1024,1073741824,1,677.7581,2503.4356
+gauss7,e_roofline,band_matrix_apply_unoptimized,apply,1024,1024,1024,1073741824,1,583.2759,3320.7665
+gauss7,e_roofline,band_matrix_overall_unoptimized,overall,1024,1024,1024,1073741824,1,327.6250,3097.6765
+gauss7,e_roofline,csr_matrix_apply_unoptimized,apply,1024,1024,1024,1073741824,1,213.5582,1638.7246
+gauss7,e_roofline,csr_matrix_overall_unoptimized,overall,1024,1024,1024,1073741824,1,67.7072,1464.5358
+gauss7,e_roofline,stencil_apply_compiler_optimized,apply,1024,1024,1024,1073741824,1,2843.4653,9744.5738
+gauss7,e_roofline,stencil_overall_compiler_optimized,overall,1024,1024,1024,1073741824,1,1792.7999,7530.8695
+gauss7,e_roofline,band_matrix_apply_compiler_optimized,apply,1024,1024,1024,1073741824,1,1497.8899,8446.8850
+gauss7,e_roofline,band_matrix_overall_compiler_optimized,overall,1024,1024,1024,1073741824,1,854.3662,7560.7568
+gauss7,e_roofline,csr_matrix_apply_compiler_optimized,apply,1024,1024,1024,1073741824,1,318.7784,2435.7510
+gauss7,e_roofline,csr_matrix_overall_compiler_optimized,overall,1024,1024,1024,1073741824,1,101.1681,2103.9613

@@ -1,0 +1,7 @@
+node_id,bench_id,impl_id,region_id,obj_cols,obj_rows,obj_levels,obj_cells,threads,mflop_s,mbytes_s
+gauss3,e_roofline,\Verb{stencil_apply_unoptimized},apply,1024,1024,1024,1073741824,1,1233.6875,4718.6137
+gauss3,e_roofline,\Verb{stencil_overall_unoptimized},overall,1024,1024,1024,1073741824,1,987.4349,4917.3622
+gauss3,e_roofline,\Verb{band_matrix_apply_unoptimized},apply,1024,1024,1024,1073741824,1,623.6196,3894.6125
+gauss3,e_roofline,\Verb{band_matrix_overall_unoptimized},overall,1024,1024,1024,1073741824,1,375.9154,4150.9385
+gauss3,e_roofline,\Verb{csr_matrix_apply_unoptimized},apply,1024,1024,1024,1073741824,1,540.3527,5457.4176
+gauss3,e_roofline,\Verb{csr_matrix_overall_unoptimized},overall,1024,1024,1024,1073741824,1,149.1231,5096.6314
